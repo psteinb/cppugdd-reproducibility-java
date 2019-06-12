@@ -28,27 +28,24 @@ matrix:
     - name: "Open JDK9 on Linux"
       jdk: openjdk9
 
-    - name: "Open JDK10 on Linux"
-      jdk: openjdk10
+    # - name: "Open JDK10 on Linux"
+    #   jdk: openjdk10
 
-    - name: "Open JDK11 on Linux"
-      jdk: openjdk11
+    # - name: "Open JDK11 on Linux"
+    #   jdk: openjdk11
 
     #https://docs.travis-ci.com/user/reference/osx/#jdk-and-macos
-    - name: "Oracle JDK12+33 on macOS"
-      os: osx
-      osx_image: xcode10.2  # Python 3.7.2 running on macOS 10.14.3
+    # - name: "Oracle JDK12+33 on macOS"
+    #   os: osx
+    #   osx_image: xcode10.2  # Python 3.7.2 running on macOS 10.14.3
       
-    - name: "Oracle JDK10.0.2+13 on macOS"
-      os: osx
-      osx_image: xcode10  # Python 3.7.2 running on macOS 10.14.3
+    # - name: "Oracle JDK10.0.2+13 on macOS"
+    #   os: osx
+    #   osx_image: xcode10  # Python 3.7.2 running on macOS 10.14.3
       
     - name: "Oracle JDK 1.8.0_112-b16 on macOS"
       os: osx
       osx_image: xcode9.3  # Python 3.7.2 running on macOS 10.14.3
       #language: shell       # 'language: python' is an error on Travis CI macOS
-
-    - name: "Java on Windows?"
-      os: windows           # Windows 10.0.17134 N/A Build 17134
 
 #script: ./gradlew test
