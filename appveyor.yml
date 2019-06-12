@@ -27,7 +27,4 @@ environment:
 matrix:
   fast_finish: true
 
-build:
-  #project: code/cpp/std_normal_distribution
-  verbosity: minimal
-  parallel: true
+build: off
