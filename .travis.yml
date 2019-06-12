@@ -7,12 +7,12 @@ cache:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
 
-jdk:
-  - oraclejdk8
-  - oraclejdk9
-  - openjdk8
-  - openjdk10
-  - openjdk11
+# jdk:
+#   - oraclejdk8
+#   - oraclejdk9
+#   - openjdk8
+#   - openjdk10
+#   - openjdk11
 
 matrix:
   include:
